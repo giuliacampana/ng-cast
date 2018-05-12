@@ -6,3 +6,4 @@ angular.module('video-player')
       this.videos = window.exampleVideoData;
     }
   });  
+ 
