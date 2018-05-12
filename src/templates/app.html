@@ -6,10 +6,10 @@
   </nav>
   <div class="row">
     <div class="col-md-7">
-      <video-player video="$ctrl.videos[0]" />
+      <video-player video="$ctrl.currentVideo" />
     </div>
     <div class="col-md-5">
-      <video-list videos="$ctrl.videos" />
+      <video-list ng-click="$ctrl.selectVideo($event)" videos="$ctrl.videos" />
     </div>
   <div>
 </div>

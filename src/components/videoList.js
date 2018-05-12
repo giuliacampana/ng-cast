@@ -3,8 +3,5 @@ angular.module('video-player')
     templateUrl: 'src/templates/videoList.html',
     bindings: {
       videos: '<',
-    },
-    controller: function() {
-      console.log('videoListComponent:', this);
-    },
+    }
   });
